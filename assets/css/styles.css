@@ -1,0 +1,26 @@
+body {
+    background-color: #efefef;
+    margin-top: 150px;
+}
+
+* {
+    font-family: Liberation Mono, monospace;
+    font-size: 21px;
+    color: rgb(0, 0, 0);
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+#content {
+    flex-direction: column;
+    width: fit-content;
+    margin: 0 auto;
+}
