@@ -14,8 +14,7 @@ function keyPressHandler(event) {
         } else if (sequence === "QUA" && keyPressed === "C") {
             sequence += keyPressed;
         } else if (sequence === "QUAC" && keyPressed === "K") {
-            console.log("quack");
-            addButton();
+            appearButton();
             isChecking = false;
         } else {
             sequence = "";

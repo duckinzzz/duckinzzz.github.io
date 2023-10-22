@@ -13,6 +13,8 @@
     </style>
     <script src="static/scripts/keyPressHandler.js"></script>
     <script src="static/scripts/buttonAdder.js"></script>
+    <script src="static/scripts/toQuack.js"></script>
+    <audio id="quackAudio" src="static/sounds/quack.mp3"></audio>
 
 </head>
 
@@ -33,10 +35,11 @@
         </div>
 
         <div id="duckContainer" class="center-container">
-            <button id = "duckButton" class="duckButton">
+            <button id="duckButton" class="duckButton" onclick="toQuack()">
                 <img class="duckimg" src="static/images/duck.png">
             </button>
         </div>
+
 
 
     </div>
