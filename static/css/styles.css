@@ -47,6 +47,27 @@ li {
 ul {
     padding-left: 0;
     display: flex;
-    margin-top: 0px;
     margin-bottom: 0%;
+}
+
+.center-container {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.duckButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: none;
+    padding: 0;
+
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.duckButton img {
+    width: 44px;
 }

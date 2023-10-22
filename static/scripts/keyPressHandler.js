@@ -14,16 +14,13 @@ function keyPressHandler(event) {
         } else if (sequence === "QUA" && keyPressed === "C") {
             sequence += keyPressed;
         } else if (sequence === "QUAC" && keyPressed === "K") {
-            doSomethingAfterQUACK();
+            console.log("quack");
+            addButton();
             isChecking = false;
         } else {
             sequence = "";
         }
     }
-}
-
-function doSomethingAfterQUACK() {
-    console.log("Действия после ввода 'QUACK'");
 }
 
 document.addEventListener("keydown", keyPressHandler);
