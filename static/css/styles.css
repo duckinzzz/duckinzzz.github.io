@@ -1,0 +1,46 @@
+body {
+    background-color: #efefef;
+}
+
+.main {
+    margin-top: 10%;
+    width: 90%;
+    max-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+* {
+    font-family: 'JetBrains Mono', monospace;
+    color: rgb(0, 0, 0);
+}
+
+.quote {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.name {
+    font-size: 35px;
+    font-family: 'JetBrains Mono Bold', monospace;
+    text-align: center;
+}
+
+.place {
+    font-size: 20px;
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+    margin: auto;
+    font-size: 18px;
+}
+
+ul {
+    padding-left: 0;
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 0%;
+}
