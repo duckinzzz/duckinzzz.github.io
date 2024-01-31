@@ -1,0 +1,27 @@
+body {
+    background-color: #efefef;
+}
+
+.main {
+    margin-top: 10%;
+    width: 90%;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+* {
+    font-family: 'JetBrains Mono', monospace;
+    color: rgb(0, 0, 0);
+}
+
+.fof {
+    font-size: 110px;
+    font-family: 'JetBrains Mono Bold', monospace;
+    text-align: center;
+}
+
+.pnf {
+    font-size: 22px;
+    text-align: center;
+}
