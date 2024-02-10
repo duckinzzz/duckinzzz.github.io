@@ -30,3 +30,13 @@ body {
     font-size: 22px;
     text-align: center;
 }
+
+.cryduck-container{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.cryduck-img{
+    width: 125px;
+}
