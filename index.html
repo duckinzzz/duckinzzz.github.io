@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pavel Yurchenko</title>
-    <link rel="icon" type="image/png" href="/static/images/favicon.png" />
+    <link rel="icon" type="image/png" href="/static/images/favicon.png"/>
     <link rel="stylesheet" href="/static/css/styles.css" type="text/css">
     <base target="_blank">
     <style>
@@ -14,31 +14,32 @@
     <script src="static/scripts/keyPressHandler.js"></script>
     <script src="static/scripts/buttonAdder.js"></script>
     <script src="static/scripts/toQuack.js"></script>
+    <script src="static/scripts/autoDarkTheme.js"></script>
     <audio id="quackAudio" src="static/sounds/quack.mp3"></audio>
 
 </head>
 
 <body>
-    <div class="main">
-        <div class="name">Yurchenko Pavel</div>
-        <div class="place">FEFU IMCS Student</div>
-        <div class="quote">@duckinzzz on everything</div>
+<div class="main">
+    <div class="name">Yurchenko Pavel</div>
+    <div class="place">FEFU IMCS Student</div>
+    <div class="quote">@duckinzzz on everything</div>
 
-        <div class="links">
-            <ul>
-                <li><a href="https://t.me/duckinzzz">tg</a></li>
-                <li><a href="https://www.instagram.com/duckinzzz">inst</a></li>
-                <li><a href="https://www.github.com/duckinzzz/">github</a></li>
-                <li><a href="https://www.vk.com/duckinzzz/">vk</a></li>
-            </ul>
-        </div>
-
-        <div id="duckContainer" class="center-container">
-            <button id="duckButton" class="duckButton" onclick="toQuack()">
-                <img class="duckimg" src="static/images/duck.png">
-            </button>
-        </div>
+    <div class="links">
+        <ul>
+            <li><a href="https://t.me/duckinzzz">tg</a></li>
+            <li><a href="https://www.instagram.com/duckinzzz">inst</a></li>
+            <li><a href="https://www.github.com/duckinzzz/">github</a></li>
+            <li><a href="https://www.vk.com/duckinzzz/">vk</a></li>
+        </ul>
     </div>
+
+    <div id="duckContainer" class="center-container">
+        <button id="duckButton" class="duckButton" onclick="toQuack()">
+            <img class="duckimg" src="static/images/duck.png" alt="duck">
+        </button>
+    </div>
+</div>
 </body>
 
 </html>

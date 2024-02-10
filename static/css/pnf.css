@@ -1,5 +1,10 @@
+:root {
+    --text-color: #000000FF;
+    --bg-color: #EFEFEFFF;
+}
+
 body {
-    background-color: #efefef;
+    background-color: var(--bg-color);
 }
 
 .main {
@@ -12,7 +17,7 @@ body {
 
 * {
     font-family: 'JetBrains Mono', monospace;
-    color: rgb(0, 0, 0);
+    color: var(--text-color);
 }
 
 .fof {
